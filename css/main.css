@@ -73,3 +73,30 @@ nav{
   text-shadow: 0 0 5px #111;
   color: white;
 }
+/* END OF MENU */
+
+footer{
+  margin-top: 50px;
+  width: 100%;
+  background: #353535;
+  border-top: 1px solid #5ab1bb;
+  box-shadow: 0 0 10px #626262;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Ubuntu;
+  color: #d7d7d7;
+  padding: 50px 0;
+}
+
+.footer-detalis{
+  list-style-type: none;
+
+}
+.fb{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
