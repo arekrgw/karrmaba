@@ -42,3 +42,34 @@ header img{
 .contact p:last-child{
   font-size: 32px;
 }
+/* END OF HEADER */
+
+nav{
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.category{
+  width: 450px;
+  height: 450px;
+  position: relative;
+  margin: 15px;
+  box-shadow: 0 0 13px #626262;
+  cursor: pointer;
+
+}
+
+.category img{
+  width: 450px;
+  width: 450px;
+}
+.category p {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 70px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  text-shadow: 0 0 5px #111;
+  color: white;
+}
